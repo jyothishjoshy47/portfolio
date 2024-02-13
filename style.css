@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Caveat', cursive;
+}
+ #container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+
+ }
+.logo{
+    width: 120px;
+}
+
+ 
+.list-items{
+    margin: 0px 20px;
+    display: inline;
+    list-style: none;
+}
+.links{
+    text-decoration: none;
+    color: rgb(7, 7, 6);
+    font-weight: 700;
+}
+/*css psuedo class selectros: pseudo-class{property :value}
+*/
+.links:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home-content{
+    margin: 13% 0px 0px 8%;
+}
+#username{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+#name{
+    color: orange;
+    font-size: 50px;
+}
+#user details{
+    line-height: 2.4;
+    font-weight: 600;
+}
+   
+.home-images{
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+ 
+}
+.group1{
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s,  left 1s;
+    
+}
+.home-images:hover #shape{
+    bottom: 70px;
+}
+.home-images:hover #girl{
+    left: 40%;
+}
+#about{
+    margin: 30% 8% 0% 8%; 
+}
+.section-head{
+    text-align: center;
+}
+.subhead{
+    color: green
+
+}
+.about-img>img{
+    width: 350px;
+
+    height: 250px;
+}
+.about-body{
+    display: flex;
+    justify-content: center;
+   font-size: x-large;
+
+}
+.informations{
+    margin-top: 1rem;
+}
+.infobox{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.infobox{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.infobox>span{
+    margin-left: 1rem;
+}
+#skill{
+    margin: 8% 8% 0px 20%;
+
+
+}
+.skill-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 2px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill2{
+    width: 60%;
+}
+.bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+
+}
+
+
+.bar-head, .bar-percent{
+    font-weight: 600;
+
+}
+.base-bar{
+width: 100%;
+height: 0.5rem;
+background-color: black;
+border-radius: 0.5rem;
+position: absolute;
+bottom: -10px;
+}
+
+ .html-bar{
+background-color: orange;
+width: 90%;
+ }
+
+ .css-bar{
+   width: 85%;
+   background-color: orange;
+ }
+ .js-bar{
+    width: 92%;
+    background-color: orange;
+
+ }
+ 
+ .react-bar{
+    width: 82%;
+    background-color: orange;
+ }
+ .icon-collection{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+ }
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,lavender,blue,skyblue);
+   
+    
+}
+.brand{
+    color: black;
+    font-size: xx-large;
+}
+
+.icon:hover .brand{
+    animation: rotate 4s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(-30deg);
+    }
+
+}
+#copyright{
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+  
+}
+.up-arrow{
+    float: right;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: blueviolet;
+}
